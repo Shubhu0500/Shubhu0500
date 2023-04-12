@@ -39,7 +39,7 @@ else:
     print(f"Ahhhhhhhh! Hard luck {player}, you made a bad decision. You are now a crocodile's lunch!! HAHAHAHA!")
   else:
     print(f"Well done {player}! you made the right choice")
-    door = input("Suddenly there was a lightning and 3 doors magically appeared in front of you! RED BLUE and Yellow. One door leads to victory rest to somewhere I don't want to talk about!! So which color door you choosing? Red, Blue or Yellow?")
+    door = input("Suddenly there was a lightning and 3 doors magically appeared in front of you! RED BLUE and Yellow. One door leads to victory rest to somewhere I don't want to talk about!! So which color door are you choosing? Red, Blue or Yellow?")
     new_door = door.lower()
     if new_door == "yellow":
       print(f"Congratulations!!!! {player}, you have made all the right choices and won the game")
