@@ -45,8 +45,10 @@ else:
       print(f"Congratulations!!!! {player}, you have made all the right choices and won the game")
     elif new_door == "red":
       print(f"HAHA!! {player} You fell into hell becuase of your lust for treasure!")
-    else:
+    elif new_door == "blue":
       print(f"HAHA!! {player} You were taken as a specimen by the alien race!!!")
+    else:
+      print(f"HAHA!! {player} you made a choice that is not in the game, GAME OVER!!!!!")
     
     
   
